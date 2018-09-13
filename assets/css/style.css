@@ -1,0 +1,24 @@
+
+.jumbotron {
+	border: 5px solid grey;
+	background: rgba(128,128,128, 0.15);
+	margin-top: 50px;
+}
+
+#portfolio {
+	height: 100vh;
+}
+
+#skills {
+	height: 100vh;
+}
+
+/*Tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+
+/*Mobile*/
+@media only screen and (max-width: 401px) {
+
+}
