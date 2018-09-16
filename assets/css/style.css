@@ -1,24 +1,230 @@
 
-.jumbotron {
-	border: 5px solid grey;
-	background: rgba(128,128,128, 0.15);
+/*----------------NAVBAR------------------*/
+.navbar {
+	background-color: #00171F;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: larger;
+}
+
+.logo {
+	height: 50px;
+	width: 50px;
+	background-image: url(../images/icon1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.newtoggler {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.color-hover {
+	color: #fff;
+}
+.color-hover:hover {
+	color: #00A8E8;
+}
+
+button span {
+	color: #fff;
+}
+
+/*----------------HEADER------------------*/
+.leftbox-pf {
 	margin-top: 50px;
+	padding: 2rem 1rem;
+  	margin-bottom: 2rem;
+  	border-radius: 0.3rem;
 }
 
-#portfolio {
-	height: 100vh;
+img.img-cont {
+	height: 100%
+	width: 100%;
+	border-radius: 50%;
+	margin-top: 60px;
 }
 
-#skills {
-	height: 100vh;
+span.textpf-blue, h2#textpf-blue {
+	color: #00a8ff;
+	font-family: 'Open Sans', sans-serif;
 }
+
+h1.textpf-white {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+}
+
+h1.display-4, p.lead {
+	color: #fff;
+}
+
+.desc {
+	border-right: 4px solid	#00A8E8;
+}
+
+p > a, strong {
+	color: #00a8ff;
+}
+
+/*----------------CONTAINERS------------------*/
+#pf-container {
+	background: #003459;
+	background-image: url(../images/pattern-pf2.png);
+	background-attachment: fixed;
+	min-height: 100vh;
+}
+
+#pf2-container {
+	background: #007EA7;
+	background-image: url(../images/pattern-pf.png);
+	background-attachment: fixed;
+	min-height: 100vh;
+}
+
+#pf3-container {
+	background: #007EA7;
+	background-image: url(../images/pattern-pf.png);
+	background-attachment: fixed;
+	min-height: 50vh;
+}
+
+/*----------------ETC------------------*/
+.see-title {
+  display: block;
+  height: 66px; 
+  margin-top: -66px; 
+  visibility: hidden;
+}
+
+.text-mons {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*----------------PORTFOLIO------------------*/
+.img-edit {
+	border: 1px solid #fff;
+	border-radius: 30px;
+}
+
+.img-edit:hover {
+	opacity: 0.7;
+}
+
+/*----------------CONTACT------------------*/
+.cont-left {
+	border-right: 2px solid #003459;
+}
+
+.pline {
+	line-height: 10px;
+	text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.btn-icon {
+	color: #fff;
+	font-size: 50px;
+	margin-left: 5px;
+}
+
+.fb:hover {
+	color: #3B5998;
+}
+
+.google:hover {
+	color: #dd4b39;
+}
+
+.linkin:hover {
+	color: #000000;
+}
+
+.git:hover {
+	color: #c9510c;
+}
+
+/*----------------FOOTER------------------*/
+#footer-container {
+	background-color: #003459;
+	font-family: 'Open Sans', sans-serif;
+	font-size: larger;
+}
+
+.copy-kip {
+	color: #fff;
+}
+
+/*----------------ANIMATE------------------*/
+
 
 /*Tablet*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+	.see-title {
+  	display: block;
+  	height: 242px; 
+ 	margin-top: -242px; 
+  	visibility: hidden;
+	}
 
+	#pf-container {
+	background: #003459;
+	background-image: url(../images/pattern-pf2.png);
+	background-attachment: fixed;
+	min-height: 50vh;
+	}
+
+	#pf2-container {
+	background: #007EA7;
+	background-image: url(../images/pattern-pf.png);
+	background-attachment: fixed;
+	min-height: 50vh;
+	}
+
+	#pf3-container {
+	background: #007EA7;
+	background-image: url(../images/pattern-pf.png);
+	background-attachment: fixed;
+	min-height: 50vh;
+	}
 }
 
 /*Mobile*/
 @media only screen and (max-width: 401px) {
+	.see-title {
+  	display: block;
+  	height: 242px; 
+ 	margin-top: -242px; 
+  	visibility: hidden;
+	}
+
+	#pf-container {
+	background: #003459;
+	background-image: url(../images/pattern-pf2.png);
+	background-attachment: fixed;
+	min-height: 50vh;
+	}
+
+	#pf2-container {
+	background: #007EA7;
+	background-image: url(../images/pattern-pf.png);
+	background-attachment: fixed;
+	min-height: 50vh;
+	}
+
+	#pf3-container {
+	background: #007EA7;
+	background-image: url(../images/pattern-pf.png);
+	background-attachment: fixed;
+	min-height: 50vh;
+	}
 
 }
