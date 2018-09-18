@@ -1,8 +1,19 @@
 
+/*--------------------MY STYLE SHEETS---------------*/
+/*#0B0C10 - BODY - black
+#1F2833 - SECTION - semi black
+#C5C6C7 - SMALL FONTS - semi white/grey
+#66FCF1 - BIG FONTS - bright greenblue
+#45A29E - NAV MENUS - dark greenblue*/
+
 /*----------------NAVBAR------------------*/
+body {
+	background: #fff;
+}
+
 .navbar {
-	background-color: #00171F;
-	color: #fff;
+	background-color: #0B0C10;
+	color: #C5C6C7;
 	font-family: 'Open Sans', sans-serif;
 	font-size: larger;
 }
@@ -25,11 +36,19 @@
   background-size: 100% 100%;
 }
 
-.color-hover {
-	color: #fff;
+.color-hover, .brand-color {
+	color: #C5C6C7;
 }
 .color-hover:hover {
-	color: #00A8E8;
+	color: #66FCF1;
+}
+
+.brand-color:hover {
+	color: #66FCF1;
+}
+
+.nav-item {
+	margin-right: 2px;
 }
 
 button span {
@@ -52,45 +71,49 @@ img.img-cont {
 }
 
 span.textpf-blue, h2#textpf-blue {
-	color: #00a8ff;
+	color: #45A29E;
 	font-family: 'Open Sans', sans-serif;
 }
 
-h1.textpf-white {
-	color: #fff;
+#textpf-white {
+	color: #66FCF1;
 	font-family: 'Open Sans', sans-serif;
+}
+
+.tostrong {
 	font-weight: bolder;
 }
 
 h1.display-4, p.lead {
-	color: #fff;
+	color: #C5C6C7;
 }
 
 .desc {
-	border-right: 4px solid	#00A8E8;
+	border-right: 4px solid	#66FCF1;
 }
 
 p > a, strong {
-	color: #00a8ff;
+	color: #66FCF1;
+	text-decoration: none;
 }
 
 /*----------------CONTAINERS------------------*/
 #pf-container {
-	background: #003459;
+	background: #1F2833;
 	background-image: url(../images/pattern-pf2.png);
 	background-attachment: fixed;
 	min-height: 100vh;
 }
 
 #pf2-container {
-	background: #007EA7;
+	background: #1F2833;
 	background-image: url(../images/pattern-pf.png);
 	background-attachment: fixed;
 	min-height: 100vh;
 }
 
 #pf3-container {
-	background: #007EA7;
+	background: #1F2833;
 	background-image: url(../images/pattern-pf.png);
 	background-attachment: fixed;
 	min-height: 50vh;
@@ -105,7 +128,7 @@ p > a, strong {
 }
 
 .text-mons {
-	color: #fff;
+	color: #C5C6C7;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -121,7 +144,7 @@ p > a, strong {
 
 /*----------------CONTACT------------------*/
 .cont-left {
-	border-right: 2px solid #003459;
+	border-right: 2px solid #66FCF1;
 }
 
 .pline {
@@ -154,13 +177,13 @@ p > a, strong {
 
 /*----------------FOOTER------------------*/
 #footer-container {
-	background-color: #003459;
+	background-color: #0B0C10;
 	font-family: 'Open Sans', sans-serif;
 	font-size: larger;
 }
 
 .copy-kip {
-	color: #fff;
+	color: #C5C6C7;
 	font-size: small;
 }
 
