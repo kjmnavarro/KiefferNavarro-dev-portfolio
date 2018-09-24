@@ -30,23 +30,41 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg fixed-top">
+	<section id="jumbotron-landing">
+		<div class="jumbotron">
+			<div class="container">
+						<h1 class="text-center"><span class="c-boldpt">&lt;b&gt;</span><strong class="c-hello">HELLO!</strong><span class="c-boldpt">&lt;/b&gt;</span></h1>
+
+						<h2 class="text-center c-ntext">I'm <span class="c-name">Kieffer Navarro,</span></h2>
+
+						<h3 class="text-center c-ntext"><span class="c-name">Fullstack</span> Web Developer</h3>
+
+						<div class="link text-center">
+			          		<a href="#navbarr">
+							<button id="landing-button" class="btn btn-lg btn-outline-info btn-land">View my work <span><i id="test" class="fas fa-arrow-right"></i></span></button>
+			          		</a>
+						</div> <!-- end of link -->
+			</div> <!-- end container -->
+		</div> <!-- end jumbotron -->
+	</section> <!-- end landing page -->
+
+	<nav class="navbar navbar-expand-lg sticky-top" id="navbarr">
       <div class="logo ml-5 mr-2"></div>
-      <a class="navbar-brand brand-color" href="#home">KJMN</a>
+      <a class="navbar-brand brand-color" href="#">KJMN</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="newtoggler"><i class="fas fa-bars"></i></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto nav-pills">
-          <li class="nav-item active-ch">
-            <a class="nav-link color-hover" href="#home">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item active">
+            <a class="nav-link color-hover" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link color-hover" href="#portfolio">Portfolio</a>
+            <a class="nav-link color-hover" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link color-hover" href="#skills">Skills</a>
+            <a class="nav-link color-hover" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link color-hover" href="#contact">Contact</a>
@@ -55,151 +73,66 @@
       </div>
     </nav>
 
-    <div class="container">
-      <div class="row" id="pf-container">
-        <span class="see-title" id="home"></span>
-        <div class="col-lg-8 col-md-12 col-sm-12">
-          <div class="leftbox-pf">
-            <div class="container desc">
-              <h1 id="textpf-white">
-              <span class="textpf-blue">&lt;b&gt;</span><span class="tostrong">HELLO!</span><span class="textpf-blue">&lt;/b&gt;</span>
-              </h1>
-              <h2 class="display-3" id="textpf-white"><span class="textpf-blue">I'm </span>Kieffer,</h2>
-              <h1 class="display-4">Fullstack Web Developer</h1>
-              <p class="lead">I'm a Tuitt Coding Bootcamp Student. Recently joined the bootcamp to learn more about web development for his plan of changing career from Analyst to Developer someday. Check out my
-                  <a href="#portfolio"><strong>portfolio!</strong></a>
-              </p>
-            </div> <!-- end of leftbox container -->
-          </div> <!-- end of leftbox-pf -->
-        </div> <!-- end of col of leftbox-pf -->
+    <div class="container mb-5 mt-5 cont-hayt" id="about">
+		<div class="row mb-5">
+			<div class="col-lg-12">
+				<h1 class="text-center">ABOUT</h1>
+				<hr>
+			</div>
+		</div> <!-- end of 1st row title -->
 
-        <div class="col-lg-4 col-md-12 col-sm-12">
-          <!-- <img src="assets/images/2.jpg" class="img-fluid img-cont"> -->
-        </div>  <!-- end of col of image rightbox-pf -->
-      </div> <!-- end of row -->
+		<div class="row mb-5">
+			<div class="col-lg-6">
+				<div class="card">
+				  <img class="card-img-top" src="assets/images/about/me.jpg" alt="myimage">
+				  <div class="card-body">
+				    <p class="card-text">I'm a <strong><span class="c-aboutext">Tuitt Coding Bootcamp</span></strong> Student. Recently joined the bootcamp to learn more about web development for his plan of changing career from <strong><span class="c-aboutext">Analyst</span></strong> to <strong><span class="c-aboutext">Developer</span></strong> someday.</p>
+				  </div>
+				</div>
+			</div>
 
-      <!-- START OF PORTFOLIO VIEW -->
-      <div class="row" id="pf2-container">
-        <span class="see-title" id="portfolio"></span>
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="text-center">
-            <h1 class="text-mons">MY PORTFOLIO</h1>
+			<div class="col-lg-6">
+				<div class="progress mb-5 mt-5">
+					<div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+	                	<div class="skill-head">HTML 80%</div>
+	                </div>
+	            </div> <!-- end 1st progress bar -->
 
-            <div class="container">
-              <div class="row mb-5 mt-5">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <h4 class="text-mons">Landing page</h4>
-                  <a href="#landingpage"><img src="assets/images/landing.jpg" class="img-fluid img-edit"></a>
-                </div>
+	            <div class="progress mb-5">
+					<div class="progress-bar progress-bar-striped bg-primary progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+	                	<div class="skill-head">CSS 80%</div>
+	                </div>
+	            </div> <!-- end 2nd progress bar -->
 
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <h4 class="text-mons">Capstone 1</h4>
-                  <a href="#capstone1"><img src="assets/images/capstone.jpg" class="img-fluid img-edit"></a>
-                </div>
-              </div> <!-- end of pf1 row -->
-            </div> <!-- end of porfolio down container -->
-          </div> <!-- end of text center portfolio -->
-        </div> <!-- end of 1st col portfolio -->
-      </div> <!-- end of row portfolio -->
+	            <div class="progress mb-5">
+					<div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 15%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+	                	<div class="skill-head text-center">SQL 15%</div>
+	                </div>
+	            </div> <!-- end 3rd progress bar -->
 
-      <!-- START OF SKILLS VIEW -->
-      <div class="row" id="pf-container">
-        <span class="see-title" id="skills"></span>
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="text-center">
-            <h1 class="text-mons">MY SKILLS</h1>
+	            <div class="progress mb-5">
+					<div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+	                	<div class="skill-head">PHP 10%</div>
+	                </div>
+	            </div> <!-- end 3rd progress bar -->
 
-            <div class="container">
-              <div class="row mb-5 mt-5">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                  <h4 class="text-mons">HTML</h4>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                      70%
-                    </div>
-                  </div>
-                </div> <!-- end of html col -->
-              </div> <!-- end of html row -->
+	            <div class="progress">
+					<div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 5%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+	                	<div class="skill-head">Javascript 5%</div>
+	                </div>
+	            </div> <!-- end 4th progress bar -->
+			</div> <!-- end col -->
+		</div> <!-- end last row -->
 
-              <div class="row mb-5 mt-5">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                  <h4 class="text-mons">CSS</h4>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                      70%
-                    </div>
-                  </div>
-                </div> <!-- end of css col -->
-              </div> <!-- end of css row -->
+		<div class="row mb-5 cont-hayt" id="projects">
+			<div class="col-lg-12">
+				<h1 class="text-center">PROJECTS</h1>
+				<hr>
+			</div>
+		</div> <!-- end of 1st row title -->
+	</div> <!-- end of container -->
 
-              <div class="row mb-5 mt-5">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                  <h4 class="text-mons">Javascript</h4>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                      100% None!
-                    </div>
-                  </div>
-                </div> <!-- end of javascript col -->
-              </div> <!-- end of javascript row -->
-
-              <div class="row mb-5 mt-5">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                  <h4 class="text-mons">PHP</h4>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                      100% None!
-                    </div>
-                  </div>
-                </div> <!-- end of php col -->
-              </div> <!-- end of php row -->
-            </div> <!-- end of skills-down container -->
-          </div> <!-- end of skills main container -->
-        </div> <!-- end of col skills main container -->
-      </div> <!-- end of row pf container  -->
-
-      <!-- START OF CONTACT VIEW -->
-      <div class="row" id="pf3-container">
-        <span class="see-title" id="contact"></span>
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="text-center">
-            <h1 class="text-mons">CONTACT</h1>
-          </div> <!-- end of text center contact -->
-
-            <div class="container">
-              <div class="row mb-5 mt-5">
-                <div class="col-lg-6 col-md-6 col-sm-12 cont-left">
-                  <h4 class="text-mons pline">EMAIL ME</h4>
-                  <p class="text-mons">181-i Scout Chuatoco St. Brgy Obrero Q.C.</p>
-                  <p class="text-mons">kieffer.navarro@gmail.com</p>
-                  <p class="text-mons">09951284460</p>
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <h4 class="text-mons pline">SOCIAL LINKS</h4>
-                    <a class="fb btn-icon" href="https://www.facebook.com/kieff.pogi" target="_blank"><i class="fab fa-facebook"></i></a>
-                    <a class="google btn-icon" href="https://plus.google.com/+kiefferjohnnavarro" target="_blank"><i class="fab fa-google-plus-square"></i></a>
-                    <a class="linkin btn-icon" href="https://www.linkedin.com/in/kieffer-john-navarro-634868168" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a class="git btn-icon" href="https://github.com/kjmnavarro" target="_blank"><i class="fab fa-github-square"></i></a>
-                </div>
-              </div> <!-- end of pf1 row -->
-            </div> <!-- end of contact down container -->
-          
-        </div> <!-- end of 1st col contact -->
-      </div> <!-- end of row contact -->
-
-    </div> <!-- end of main container -->
-
-    <!-- START OF FOOTER VIEW -->
-    <div class="container-fluid">
-      <div class="row" id="footer-container">
-        <div class="col-lg-12 col-md-12 col-sm-12-12 pt-4 text-center">
-          <footer>
-            <p class="copy-kip">Copyright &copy; Kieffer John Navarro 2018</p>
-          </footer>
-        </div>
-      </div>
-    </div>
+		
 
 
 
@@ -208,7 +141,8 @@
 
 
 
-    <!-- jquery first then popper the bootstrap js -->
+
+	<!-- jquery first then popper the bootstrap js -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -216,5 +150,6 @@
     <!-- external bootstrap js -->
     <script src="assets/js/bootstrap.min.js"></script>
 
+    <script type="text/javascript" src="assets/js/lightbox.js"></script>
 </body>
 </html>

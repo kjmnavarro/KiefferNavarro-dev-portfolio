@@ -6,6 +6,82 @@
 #66FCF1 - BIG FONTS - bright greenblue
 #45A29E - NAV MENUS - dark greenblue*/
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.jumbotron {
+	background-color: transparent;
+	background: url(../images/landing/bg-landing.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	padding-top: 25vh;
+	padding-bottom: 25vh;
+	margin-bottom: 0;
+}
+
+#jumbotron-landing {
+	background-color: #141414;
+	margin: 0 auto;
+}
+
+#landing-button {
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#landing-button:hover {
+	color: #141414;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.c-boldpt {
+	color: #5bc0de;
+	font-size: 3rem;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.c-hello {
+	font-size: 4rem;
+	color: #5bc0de;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.c-name {
+	color: #5bc0de;
+}
+
+.c-ntext {
+	color: #e6e6e6;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3rem;
+}
+
+.btn-land {
+	color: #e6e6e6;
+	border-color: #e6e6e6;
+}
+
+.btn-land:hover {
+	color: #e6e6e6 !important;
+}
+
+.btn-land  i {
+	transition: transform 1s;
+}
+
+.btn-land:hover i{
+	transform: rotate(90deg);
+}
+
+/*----------------------END OF LANDING PAGE------------------------------*/
+
+
 /*----------------NAVBAR------------------*/
 body {
 	background: #fff;
@@ -37,14 +113,14 @@ body {
 }
 
 .color-hover, .brand-color {
-	color: #C5C6C7;
+	color: #e6e6e6;
 }
 .color-hover:hover {
-	color: #66FCF1;
+	color: #2ca7ff;
 }
 
 .brand-color:hover {
-	color: #66FCF1;
+	color: #2ca7ff;
 }
 
 .nav-item {
@@ -55,69 +131,57 @@ button span {
 	color: #fff;
 }
 
-/*----------------HEADER------------------*/
-.leftbox-pf {
-	margin-top: 50px;
-	padding: 2rem 1rem;
-  	margin-bottom: 2rem;
-  	border-radius: 0.3rem;
+/*----------------END OF NAVBAR------------------*/
+
+/*----------------ABOUT------------------*/
+.cont-hayt {
+	height: 100vh;
+	padding-top: 66px;
 }
 
-img.img-cont {
-	height: 100%
-	width: 100%;
-	border-radius: 50%;
-	margin-top: 60px;
+hr {
+	height: 0px;
+	width: 8%;
+	border: none;
+	border-top: 2px solid #333;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
-span.textpf-blue, h2#textpf-blue {
-	color: #45A29E;
+.card {
+	width: 20rem;
+}
+
+.card-text {
+	color: #1a1a1a;
 	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: large;
 }
 
-#textpf-white {
-	color: #66FCF1;
-	font-family: 'Open Sans', sans-serif;
+.c-aboutext {
+	color: #5bc0de;
 }
 
-.tostrong {
-	font-weight: bolder;
+.progress {
+	height: 2rem;
 }
 
-h1.display-4, p.lead {
-	color: #C5C6C7;
+.skill-head {
+	font-size: 1rem;
+	font-weight: 700; 
+	color: #262626;
 }
 
-.desc {
-	border-right: 4px solid	#66FCF1;
-}
+/*----------------END OF ABOUT------------------*/
 
-p > a, strong {
-	color: #66FCF1;
-	text-decoration: none;
-}
+/*---------------PROJECTS----------------*/
 
-/*----------------CONTAINERS------------------*/
-#pf-container {
-	background: #1F2833;
-	background-image: url(../images/pattern-pf2.png);
-	background-attachment: fixed;
-	min-height: 100vh;
-}
 
-#pf2-container {
-	background: #1F2833;
-	background-image: url(../images/pattern-pf.png);
-	background-attachment: fixed;
-	min-height: 100vh;
-}
 
-#pf3-container {
-	background: #1F2833;
-	background-image: url(../images/pattern-pf.png);
-	background-attachment: fixed;
-	min-height: 50vh;
-}
+/*---------------END OF PROJECTS----------*/
+
 
 /*----------------ETC------------------*/
 .see-title {
@@ -192,63 +256,18 @@ p > a, strong {
 
 /*Tablet*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-	.see-title {
-  	display: block;
-  	height: 242px; 
- 	margin-top: -242px; 
-  	visibility: hidden;
-	}
-
-	#pf-container {
-	background: #003459;
-	background-image: url(../images/pattern-pf2.png);
-	background-attachment: fixed;
-	min-height: 50vh;
-	}
-
-	#pf2-container {
-	background: #007EA7;
-	background-image: url(../images/pattern-pf.png);
-	background-attachment: fixed;
-	min-height: 50vh;
-	}
-
-	#pf3-container {
-	background: #007EA7;
-	background-image: url(../images/pattern-pf.png);
-	background-attachment: fixed;
-	min-height: 50vh;
+	
+	.cont-hayt {
+	height: 100vh;
+	/*padding-top: 242px;*/
 	}
 }
 
 /*Mobile*/
 @media only screen and (max-width: 401px) {
-	.see-title {
-  	display: block;
-  	height: 242px; 
- 	margin-top: -242px; 
-  	visibility: hidden;
-	}
-
-	#pf-container {
-	background: #003459;
-	background-image: url(../images/pattern-pf2.png);
-	background-attachment: fixed;
-	min-height: 50vh;
-	}
-
-	#pf2-container {
-	background: #007EA7;
-	background-image: url(../images/pattern-pf.png);
-	background-attachment: fixed;
-	min-height: 50vh;
-	}
-
-	#pf3-container {
-	background: #007EA7;
-	background-image: url(../images/pattern-pf.png);
-	background-attachment: fixed;
-	min-height: 50vh;
+	.cont-hayt {
+	height: 100vh;
+	/*padding-top: 242px;*/
 	}
 
 }
