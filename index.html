@@ -57,7 +57,7 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto nav-pills">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link color-hover" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
@@ -73,142 +73,143 @@
       </div>
     </nav>
 
-    <div class="container" id="about">
-		<div class="row">
-			<div class="col-lg-12">
-				<h1 class="text-center text-headd">ABOUT</h1>
-				<hr>
-			</div>
+    <div data-spy="scroll" data-target="#navbarr" data-offset="0">
+	    <div class="container" id="about">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 class="text-center text-headd">ABOUT</h1>
+					<hr>
+				</div>
 
-			<div class="col-lg-6 col-md-6 col-sm-12">
-				<div class="card">
-				  <img class="card-img-top" src="assets/images/about/me.jpg" alt="myimage">
-				  <div class="card-body">
-				    <p class="card-text">I'm a <strong><span class="c-aboutext">Tuitt Coding Bootcamp</span></strong> Student. Recently joined the bootcamp to learn more about web development for my plan of changing career from <strong><span class="c-aboutext">Analyst</span></strong> to <strong><span class="c-aboutext">Developer</span></strong> someday.</p>
-				  </div>
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<div class="card">
+					  <img class="card-img-top" src="assets/images/about/me.jpg" alt="myimage">
+					  <div class="card-body">
+					    <p class="card-text">I'm a <strong><span class="c-aboutext">Tuitt Coding Bootcamp</span></strong> Student. Recently joined the bootcamp to learn more about web development for my plan of changing career from <strong><span class="c-aboutext">Analyst</span></strong> to <strong><span class="c-aboutext">Developer</span></strong> someday.</p>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<div class="progress mb-5 mt-5">
+						<div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+		                	<div class="skill-head">HTML 80%</div>
+		                </div>
+		            </div> <!-- end 1st progress bar -->
+
+		            <div class="progress mb-5">
+						<div class="progress-bar progress-bar-striped bg-primary progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+		                	<div class="skill-head">CSS 80%</div>
+		                </div>
+		            </div> <!-- end 2nd progress bar -->
+
+		            <div class="progress mb-5">
+						<div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 15%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+		                	<div class="skill-head text-center">SQL 15%</div>
+		                </div>
+		            </div> <!-- end 3rd progress bar -->
+
+		            <div class="progress mb-5">
+						<div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+		                	<div class="skill-head">PHP 10%</div>
+		                </div>
+		            </div> <!-- end 3rd progress bar -->
+
+		            <div class="progress">
+						<div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 5%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+		                	<div class="skill-head">Javascript 5%</div>
+		                </div>
+		            </div> <!-- end 4th progress bar -->
+				</div> <!-- end col -->
+			</div> <!-- end row -->
+		</div> <!-- end of container -->
+
+		<div class="container mt-5" id="projects">
+			<div class="row mb-5">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<h1 class="text-center text-headd">PROJECTS</h1>
+					<hr>
+				</div>
+
+				<div class="col-lg-6 offset-lg-3 proj-box">
+					<a href="#capstone"><img src="assets/images/proj1.png" alt="capstone" class="img-thumbnail"></a>
+					<div class="overlay">My First Capstone Project</div>
+				</div>
+
+			</div> <!-- end of 2nd row -->
+		</div> <!-- end container -->
+
+		<div class="container mt-5" id="contact">
+			<div class="row mb-5">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<h1 class="text-center text-headd">CONTACTS</h1>
+					<hr>
+				</div>
+			</div> <!-- end 1st row contact -->
+
+			<div class="row">
+				<div class="col-lg-2 col-md-3 col-6 measure-cont tabvcont-top cp-vcont">
+					<div class="cont-round text-center">
+						<a href="mailto:kieffer.navarro@gmail.com">
+							<i class="fas fa-envelope anc-tomid"></i>
+						</a>
+						<h3 class="contacttitle text-center">EMAIL</h3>
+						<h6 class="bot-ctitle text-center">kieffer.navarro@gmail.com</h6>
+					</div>
+					
+				</div>
+
+				<div class="col-lg-2 col-md-3 col-6 measure-cont tabvcont-top cp-vcont">
+					<div class="cont-round text-center">
+						<i class="fas fa-phone anc-tomid"></i></i>
+					<h3 class="contacttitle text-center">PHONE</h3>
+					<h6 class="bot-ctitle">+63 995 128 4460</h6>
+					</div>
+				</div>
+
+				<div class="col-lg-2 col-md-3 col-6 measure-cont tabvcont-top cp-vcont mt-2">
+					<div class="cont-round text-center">
+						<a href="https://www.facebook.com/kieff.pogi" target="_blank">
+							<i class="fab fa-facebook-square anc-tomid"></i>
+						</a>
+						<h3 class="contacttitle text-center">FACEBOOK</h3>
+						<h6 class="bot-ctitle">Follow me</h6>
+					</div>
+					
+				</div>
+
+				<div class="col-lg-2 col-md-3 col-6 measure-cont tabvcont-bot1 cp-vcont mt-2">
+					<div class="cont-round text-center">
+						<a href="https://www.linkedin.com/in/kieffer-john-navarro-634868168" target="_blank">
+							<i class="fab fa-linkedin anc-tomid"></i>
+						</a>
+						<h3 class="contacttitle text-center">LINKEDIN</h3>
+						<h6 class="bot-ctitle">Follow me</h6>
+					</div>
+					
+				</div>
+
+				<div class="col-lg-2 col-md-3 col-6 measure-cont tabvcont-bot2 cp-vcont mt-2">
+					<div class="cont-round text-center">
+						<a href="https://github.com/kjmnavarro" target="_blank">
+							<i class="fab fa-github anc-tomid"></i>
+						</a>
+						<h3 class="contacttitle text-center">GITHUB</h3>
+						<h6 class="bot-ctitle">Follow me</h6>
+					</div>
+				</div>
+			</div> <!-- end of 2nd row contact-->
+		</div> <!-- end container -->
+	</div> <!-- end of SPY -->
+
+
+		<div class="container-fluid mt-5 bg-foot">
+			<div class="row">
+				<div class="col-lg-12 text-center pt-4">
+					<p class="text-center">Copyright &copy; Kieffer John Mercado Navarro 2018</p>
 				</div>
 			</div>
-
-			<div class="col-lg-6 col-md-6 col-sm-12">
-				<div class="progress mb-5 mt-5">
-					<div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-	                	<div class="skill-head">HTML 80%</div>
-	                </div>
-	            </div> <!-- end 1st progress bar -->
-
-	            <div class="progress mb-5">
-					<div class="progress-bar progress-bar-striped bg-primary progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-	                	<div class="skill-head">CSS 80%</div>
-	                </div>
-	            </div> <!-- end 2nd progress bar -->
-
-	            <div class="progress mb-5">
-					<div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 15%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-	                	<div class="skill-head text-center">SQL 15%</div>
-	                </div>
-	            </div> <!-- end 3rd progress bar -->
-
-	            <div class="progress mb-5">
-					<div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-	                	<div class="skill-head">PHP 10%</div>
-	                </div>
-	            </div> <!-- end 3rd progress bar -->
-
-	            <div class="progress">
-					<div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 5%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-	                	<div class="skill-head">Javascript 5%</div>
-	                </div>
-	            </div> <!-- end 4th progress bar -->
-			</div> <!-- end col -->
-		</div> <!-- end row -->
-	</div> <!-- end of container -->
-
-	<div class="container mt-5" id="projects">
-		<div class="row mb-5">
-			<div class="col-lg-12 col-md-12 col-sm-12">
-				<h1 class="text-center text-headd">PROJECTS</h1>
-				<hr>
-			</div>
-
-			<div class="col-lg-6 offset-lg-3 proj-box">
-				<a href="#capstone"><img src="assets/images/proj1.png" alt="capstone" class="img-thumbnail"></a>
-				<div class="overlay">My First Capstone Project</div>
-			</div>
-
-		</div> <!-- end of 2nd row -->
-	</div> <!-- end container -->
-
-	<div class="container mt-5" id="contact">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 mb-5">
-				<h1 class="text-center text-headd">CONTACTS</h1>
-				<hr>
-			</div>
-
-			<div class="col-lg-2 col-md-2 col-sm-6 measure-cont">
-				<div class="cont-round text-center">
-					<a href="mailto:kieffer.navarro@gmail.com" class="anc-tomid">
-						<i class="fas fa-envelope"></i>
-					</a>
-				</div>
-				<h3 class="contacttitle text-center">EMAIL</h2>
-				<span class="bot-ctitle">kieffer.navarro@gmail.com</span>
-			</div>
-
-			<div class="col-lg-2 col-md-2 col-sm-6 measure-cont">
-				<div class="cont-round text-center">
-					<i class="fas fa-phone anc-tomid"></i></i>
-				</div>
-				<h3 class="contacttitle text-center">PHONE</h2>
-				<span class="bot-ctitle">+63 995 128 4460</span>
-			</div>
-
-			<div class="col-lg-2 col-md-2 col-sm-6 measure-cont">
-				<div class="cont-round text-center">
-					<a href="https://www.facebook.com/kieff.pogi" target="_blank" class="anc-tomid">
-						<i class="fab fa-facebook-square"></i>
-					</a>
-				</div>
-				<h3 class="contacttitle text-center">FACEBOOK</h2>
-				<span class="bot-ctitle">Follow me</span>
-			</div>
-
-			<div class="col-lg-2 col-md-2 col-sm-6 measure-cont">
-				<div class="cont-round text-center">
-					<a href="https://www.linkedin.com/in/kieffer-john-navarro-634868168" target="_blank" class="anc-tomid">
-						<i class="fab fa-linkedin"></i>
-					</a>
-				</div>
-				<h3 class="contacttitle text-center">LINKEDIN</h2>
-				<span class="bot-ctitle">Follow me</span>
-			</div>
-
-			<div class="col-lg-2 col-md-2 col-sm-6 measure-cont">
-				<div class="cont-round text-center">
-					<a href="https://github.com/kjmnavarro" target="_blank" class="anc-tomid">
-						<i class="fab fa-github"></i>
-					</a>
-				</div>
-				<h3 class="contacttitle text-center">GITHUB</h2>
-				<span class="bot-ctitle">Follow me</span>
-			</div>
-		</div> <!-- end of 3rd row -->
-	</div> <!-- end container -->
-	
-
-	<div class="container-fluid mt-5 bg-foot">
-		<div class="row">
-			<div class="col-lg-12 text-center pt-4">
-				<p class="text-center">Copyright &copy; Kieffer John Mercado Navarro 2018</p>
-			</div>
-		</div>
-	</div> <!-- end of footer -->
-		
-
-
-
-
-
+		</div> <!-- end of footer -->
 
 
 	<!-- jquery first then popper the bootstrap js -->

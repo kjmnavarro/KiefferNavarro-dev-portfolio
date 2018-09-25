@@ -122,6 +122,10 @@ body {
 	color: #5bc0de;
 }
 
+a.color-hover:focus {
+	color: #b30000;
+}
+
 .nav-item {
 	margin-right: 2px;
 }
@@ -208,18 +212,13 @@ hr {
 }
 
 /*----------------CONTACT------------------*/
-
-#contact {
-	height: 50vh;
-}
-
-.measure-cont {
+/*.measure-cont {
 	margin-left: 1.388888916%;
 	margin-right: 1.388888916%;
-}
+}*/
 
-.fab, .fas {
-	font-size: 2rem;
+.fab, .fa-phone, .fa-envelope {
+	font-size: 3rem;
 	color: #1a1a1a;
 }
 
@@ -245,20 +244,37 @@ hr {
 
 .cont-round {
 	height: 100%;
-	width: 75%;
-	border: 1px solid #333;
-	border-radius: 100%;
+	width: 100%;
+	border: 2px solid #333;/
 	margin-left: 15%;
 }
 
 .anc-tomid {
-	position: relative;
-	top: 35%;
+	margin-top: 20%;
+}
+
+.contacttitle {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	font-weight: 700;
+	margin-top: 10%;
 }
 
 .bot-ctitle {
-	margin-left: 20%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.5rem;
 }
+
+.cont-round:hover {
+	color: #fff;
+	background: #333;
+}
+
+.active {
+	color: #b30000;
+}
+/*--------------END OF CONTACT-----------*/
+
 
 /*----------------FOOTER------------------*/
 
@@ -279,13 +295,9 @@ hr {
 	#projects {
 		padding-top: 66px;
 	}
-	
-	#contact {
-		height: 50vh;
-	}
 
-	.bot-ctitle {
-		margin-left: 20%;
+	.color-hover {
+		text-align: center;
 	}
 }
 
@@ -308,7 +320,8 @@ hr {
 		font-size: 3rem;
 	}
 
-	#contact {
-		height: 100vh;
+	.color-hover {
+		text-align: center;
 	}
+
 }
