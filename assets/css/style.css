@@ -12,6 +12,14 @@
 	box-sizing: border-box;
 }
 
+body {
+	position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .jumbotron {
 	background-color: transparent;
 	background: url(../images/landing/bg-landing.jpg);
@@ -212,10 +220,6 @@ hr {
 }
 
 /*----------------CONTACT------------------*/
-/*.measure-cont {
-	margin-left: 1.388888916%;
-	margin-right: 1.388888916%;
-}*/
 
 .fab, .fa-phone, .fa-envelope {
 	font-size: 3rem;
@@ -288,8 +292,19 @@ hr {
 
 /*----------------ANIMATE------------------*/
 
+/*---------------------DESKTOP-----------------------*/
 
-/*Tablet*/
+@media only screen and (min-width: 961px) {
+	
+	.measure-cont {
+	margin-left: 1.388888916%;
+	margin-right: 1.388888916%;
+	}
+
+}
+
+
+/*---------------------Tablet---------------------*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 	
 	#projects {
@@ -299,9 +314,14 @@ hr {
 	.color-hover {
 		text-align: center;
 	}
+
+	.move-vcp {
+		margin-left: 38%;
+		margin-top: 5%;
+	}
 }
 
-/*Mobile*/
+/*----------------Mobile-------------------*/
 @media only screen and (max-width: 401px) {
 	
 	.jumbotron {
@@ -322,6 +342,15 @@ hr {
 
 	.color-hover {
 		text-align: center;
+	}
+
+	.move-vcp {
+		margin-left: 25%;
+		margin-top: 5%;
+	}
+
+	.mg-tp {
+		margin-top: 5%;
 	}
 
 }
