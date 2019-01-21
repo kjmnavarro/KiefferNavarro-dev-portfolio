@@ -186,6 +186,7 @@ hr {
 	color: #262626;
 }
 
+
 /*----------------END OF ABOUT------------------*/
 
 /*---------------PROJECTS----------------*/
@@ -209,6 +210,10 @@ hr {
 
 #projects {
 	padding-top: 66px;
+}
+
+.img-capstone {
+	height: 250px;
 }
 /*---------------END OF PROJECTS----------*/
 
@@ -319,6 +324,8 @@ hr {
 		margin-left: 38%;
 		margin-top: 5%;
 	}
+
+	
 }
 
 /*----------------Mobile-------------------*/
@@ -351,6 +358,18 @@ hr {
 
 	.mg-tp {
 		margin-top: 5%;
+	}
+
+	.c-boldpt {
+	color: #5bc0de;
+	font-size: 2rem;
+	font-family: 'Open Sans', sans-serif;
+	}
+
+	.c-hello {
+	font-size: 3rem;
+	color: #5bc0de;
+	font-family: 'Open Sans', sans-serif;
 	}
 
 }
