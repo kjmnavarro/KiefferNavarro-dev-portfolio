@@ -190,30 +190,13 @@ hr {
 /*----------------END OF ABOUT------------------*/
 
 /*---------------PROJECTS----------------*/
-.overlay {
-  position: relative;
-  bottom: 31%;  
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #5bc0de;
-  width: 100%;
-  transition: .5s ease;
-  opacity:0;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
-}
-
-.proj-box:hover .overlay {
-  opacity: 1;
-}
-
 #projects {
 	padding-top: 66px;
 }
 
 .img-capstone {
 	height: 250px;
+	width: 500px;
 }
 /*---------------END OF PROJECTS----------*/
 
@@ -295,7 +278,49 @@ hr {
 	letter-spacing: 3px;
 }
 
-/*----------------ANIMATE------------------*/
+/*----------------ANIMATE FLIP------------------*/
+
+.flip-card {
+  background-color: transparent;
+  width: 500px;
+  height: 250px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* 3D effect */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #000000;
+  color: white;
+  transform: rotateY(180deg);
+}
+
 
 /*---------------------DESKTOP-----------------------*/
 
