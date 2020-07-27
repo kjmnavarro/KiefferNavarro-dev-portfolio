@@ -274,6 +274,10 @@ hr {
 	color: #c71610;
 }
 
+.cont-round:hover .fa-phone{
+	color: #075e54;
+}
+
 .cont-round:hover .fa-linkedin{
 	color: #0077B5;
 }
