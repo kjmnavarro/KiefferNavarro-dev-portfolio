@@ -409,66 +409,66 @@ hr {
 }
 
 .logo-holder2:nth-child(4){
-	background-image: url('../images/logos/logo8.png');
-}
-
-.logo-holder2:nth-child(5){
 	background-image: url('../images/logos/logo9.png');
 }
 
-.logo-holder2:nth-child(6){
+.logo-holder2:nth-child(5){
 	background-image: url('../images/logos/logo10.png');
+}
+
+.logo-holder2:nth-child(6){
+	background-image: url('../images/logos/logo11.png');
 }
 
 /*========================================================*/
 .logo-holder3:nth-child(1){
-	background-image: url('../images/logos/logo11.png');
-}
-
-.logo-holder3:nth-child(2){
 	background-image: url('../images/logos/logo12.png');
 }
 
-.logo-holder3:nth-child(3){
+.logo-holder3:nth-child(2){
 	background-image: url('../images/logos/logo13.png');
 }
 
-.logo-holder3:nth-child(4){
+.logo-holder3:nth-child(3){
 	background-image: url('../images/logos/logo14.png');
 }
 
-.logo-holder3:nth-child(5){
+.logo-holder3:nth-child(4){
 	background-image: url('../images/logos/logo15.jpg');
 }
 
-.logo-holder3:nth-child(6){
+.logo-holder3:nth-child(5){
 	background-image: url('../images/logos/logo16.png');
+}
+
+.logo-holder3:nth-child(6){
+	background-image: url('../images/logos/logo17.png');
 }
 
 /*========================================================*/
 .logo-holder4:nth-child(1){
-	background-image: url('../images/logos/logo17.png');
-}
-
-.logo-holder4:nth-child(2){
 	background-image: url('../images/logos/logo18.png');
 }
 
-.logo-holder4:nth-child(3){
+.logo-holder4:nth-child(2){
 	background-image: url('../images/logos/logo19.png');
 }
 
-.logo-holder4:nth-child(4){
+.logo-holder4:nth-child(3){
 	background-image: url('../images/logos/logo20.png');
 }
 
-.logo-holder4:nth-child(5){
+.logo-holder4:nth-child(4){
 	background-image: url('../images/logos/logo21.png');
 }
 
-.logo-holder4:nth-child(6){
+.logo-holder4:nth-child(5){
 	background-image: url('../images/logos/logo22.png');
 }
+
+/*.logo-holder4:nth-child(6){
+	background-image: url('../images/logos/logo22.png');
+}*/
 
 /*---------------------DESKTOP-----------------------*/
 
