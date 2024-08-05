@@ -97,7 +97,7 @@
 
 				<div class="col-lg-8 col-md-12 col-sm-12 mt-5">
 					<div class="flex-container">
-						<div class="logo-holder"></div></a>
+						<div class="logo-holder"></div>
 						<div class="logo-holder"></div>
 						<div class="logo-holder"></div>
 						<div class="logo-holder"></div>
@@ -121,6 +121,7 @@
 						<div class="logo-holder3"></div>
 					</div>
 					<div class="flex-container mt-3">
+						<div class="logo-holder4"></div>
 						<div class="logo-holder4"></div>
 						<div class="logo-holder4"></div>
 						<div class="logo-holder4"></div>
@@ -539,7 +540,7 @@
 		<div class="container-fluid mt-5 bg-foot">
 			<div class="row">
 				<div class="col-lg-12 text-center pt-4">
-					<p class="text-center">Copyright &copy; Kieffer John Mercado Navarro 2023</p>
+					<p class="text-center">Copyright &copy; Kieffer John Mercado Navarro <span id="copyYear"></span></p>
 				</div>
 			</div>
 		</div> <!-- end of footer -->
@@ -554,5 +555,9 @@
 
     <!-- <script type="text/javascript" src="assets/js/lightbox.js"></script> -->
 
+    <script type="text/javascript">
+    	let year = new Date().getFullYear();
+    	let copyYear = $('#copyYear').html(year);
+    </script>
 </body>
 </html>
