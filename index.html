@@ -87,48 +87,29 @@
 					<div class="card">
 					  <img class="card-img-top" src="assets/images/about/me.png" alt="myimage">
 					  <div class="card-body">
-					    <p class="card-text">I'm a passionate and skilled <strong><span class="c-aboutext">Full Stack Developer</span></strong> 
+					    <!-- <p class="card-text">I'm a passionate and skilled <strong><span class="c-aboutext">Full Stack Developer</span></strong> 
 							proficient in a wide range of technologies including HTML, CSS, JavaScript, PHP, Laravel, and MySQL. 
 							With a keen eye for detail and a knack for problem-solving, I bring creativity and innovation to every project I undertake.
+						</p> -->
+						<p>
+							I'm a passionate and skilled <strong><span class="c-aboutext">Full Stack Developer</span></strong>
+							with experience in a variety of technologies like HTML, CSS, JavaScript, PHP, Laravel, and MySQL.
+						</p>
+						<p>
+							I enjoy building clean, responsive web apps and solving complex problems. 
+							Lately, I've been diving into the MEAN stack (<span class="text-success">MongoDB</span>, <span class="text-warning">Express</span>.js, 
+							<span class="text-danger">Angular</span>, <span class="text-success">Node.js</span>) for full-stack development and using Inversify for writing more maintainable, scalable code with dependency injection. 
+							Additionally, I enjoy using Ionic to develop high-performance mobile and web apps.
+						</p>
+						<p>
+							With a sharp eye for detail and a strong problem-solving mindset, I bring creativity and innovation to every project I work on.
 						</p>
 					  </div>
 					</div>
 				</div>
 
 				<div class="col-lg-8 col-md-12 col-sm-12 mt-5">
-					<div class="flex-container">
-						<div class="logo-holder"></div>
-						<div class="logo-holder"></div>
-						<div class="logo-holder"></div>
-						<div class="logo-holder"></div>
-						<div class="logo-holder"></div>
-						<div class="logo-holder"></div>
-					</div>
-					<div class="flex-container mt-3">
-						<div class="logo-holder2"></div>
-						<div class="logo-holder2"></div>
-						<div class="logo-holder2"></div>
-						<div class="logo-holder2"></div>
-						<div class="logo-holder2"></div>
-						<div class="logo-holder2"></div>
-					</div>
-					<div class="flex-container mt-3">
-						<div class="logo-holder3"></div>
-						<div class="logo-holder3"></div>
-						<div class="logo-holder3"></div>
-						<div class="logo-holder3"></div>
-						<div class="logo-holder3"></div>
-						<div class="logo-holder3"></div>
-					</div>
-					<div class="flex-container mt-3">
-						<div class="logo-holder4"></div>
-						<div class="logo-holder4"></div>
-						<div class="logo-holder4"></div>
-						<div class="logo-holder4"></div>
-						<div class="logo-holder4"></div>
-						<div class="logo-holder4"></div>
-						<div class="logo-holder4"></div>
-					</div>
+					<div id="logo-container"></div>
 				</div>
 
 			</div> <!-- end row -->
@@ -143,21 +124,39 @@
 
 				<div class="col-lg-12 col-md-12 col-sm-12">
 					<p>
-						<span class="font-weight-bold">HTML, CSS, JavaScript</span>: 
-						I create clean, responsive, and intuitive user interfaces using the latest web technologies. 
-						From wireframes to polished websites, I ensure a seamless user experience.
+						<span class="font-weight-bold">HTML, CSS, JavaScript and Typescript</span>: 
+						I focus on building clean, responsive websites that look great and work well on any device. 
+						From wireframes to fully finished products, I make sure the user experience is smooth and intuitive.
 					</p>
 					<p>
 						<span class="font-weight-bold">PHP & Laravel</span>:
-						With a solid foundation in PHP and expertise in the Laravel framework, 
-						I develop robust and scalable backend solutions. 
-						From custom web applications to API integrations, I have the skills to bring your ideas to life.
+						I have solid experience with PHP and Laravel, creating robust back-end solutions. 
+						Whether it's custom web apps or API integrations, I develop systems that are scalable, efficient, and easy to maintain.
 					</p>
 					<p>
 						<span class="font-weight-bold">MySQL</span>:
-						I excel in designing and optimizing databases to ensure efficient data management. 
-						Whether it's creating complex queries or database architecture, 
-						I'm dedicated to delivering high-performance solutions.
+						I’m skilled at designing databases and writing complex queries, always optimizing for performance. 
+						I focus on building systems that handle data efficiently and reliably.
+					</p>
+					<p>
+						<span class="font-weight-bold">MEAN Stack</span>:
+						I work with MongoDB, Express.js, Angular, and Node.js to build full-stack web apps. 
+						I enjoy using these technologies to create fast, scalable applications that provide seamless, responsive user experiences from front to back.
+					</p>
+					<p>
+						<span class="font-weight-bold">Express.js & Inversify</span>:
+						I use Express.js to create flexible, fast server-side applications and pair it with Inversify to manage complex dependencies in a clean, maintainable way. 
+						This setup helps me deliver high-quality, scalable back-end solutions.
+					</p>
+					<p>
+						<span class="font-weight-bold">Angular & Ionic</span>:
+						I use Angular and Ionic to build mobile and web apps that perform smoothly across devices. 
+						Whether it's a complex enterprise app or a simple mobile solution, I focus on building apps that are easy to scale and maintain.
+					</p>
+					<p>
+						<span class="font-weight-bold">SPA (Single Page Applications)</span>:
+						I specialize in building SPAs that provide smooth, app-like experiences in the browser. 
+						Using Angular and other front-end frameworks, I create fast, responsive interfaces that minimize load times and provide seamless interactions without page reloads.
 					</p>
 				</div>
 			</div>
@@ -559,5 +558,7 @@
     	let year = new Date().getFullYear();
     	let copyYear = $('#copyYear').html(year);
     </script>
+
+	<script type="text/javascript" src="assets/js/custom_js.js"></script>
 </body>
 </html>

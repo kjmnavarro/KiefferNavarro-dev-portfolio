@@ -353,6 +353,25 @@ hr {
 
 /*logossss -------------------*/
 
+#logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.logo-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo-holder {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .flex-container{
 	display: flex;
 	justify-content: center;
@@ -371,110 +390,6 @@ hr {
 	margin: 10px;
 }
 
-.logo-holder:nth-child(1){
-	background-image: url('../images/logos/logo1_1.png');
-}
-
-.logo-holder:nth-child(2){
-	background-image: url('../images/logos/logo1_2.png');
-}
-
-.logo-holder:nth-child(3){
-	background-image: url('../images/logos/logo1_3.png');
-}
-
-.logo-holder:nth-child(4){
-	background-image: url('../images/logos/logo2.png');
-}
-
-.logo-holder:nth-child(5){
-	background-image: url('../images/logos/logo3.png');
-}
-
-.logo-holder:nth-child(6){
-	background-image: url('../images/logos/logo4.png');
-}
-
-/*========================================================*/
-.logo-holder2:nth-child(1){
-	background-image: url('../images/logos/logo5.png');
-}
-
-.logo-holder2:nth-child(2){
-	background-image: url('../images/logos/logo6.png');
-}
-
-.logo-holder2:nth-child(3){
-	background-image: url('../images/logos/logo7.png');
-}
-
-.logo-holder2:nth-child(4){
-	background-image: url('../images/logos/logo9.png');
-}
-
-.logo-holder2:nth-child(5){
-	background-image: url('../images/logos/logo10.png');
-}
-
-.logo-holder2:nth-child(6){
-	background-image: url('../images/logos/logo11.png');
-}
-
-/*========================================================*/
-.logo-holder3:nth-child(1){
-	background-image: url('../images/logos/logo12.png');
-}
-
-.logo-holder3:nth-child(2){
-	background-image: url('../images/logos/logo13.png');
-}
-
-.logo-holder3:nth-child(3){
-	background-image: url('../images/logos/logo14.png');
-}
-
-.logo-holder3:nth-child(4){
-	background-image: url('../images/logos/logo15.jpg');
-}
-
-.logo-holder3:nth-child(5){
-	background-image: url('../images/logos/logo16.png');
-}
-
-.logo-holder3:nth-child(6){
-	background-image: url('../images/logos/logo17.png');
-}
-
-/*========================================================*/
-.logo-holder4:nth-child(1){
-	background-image: url('../images/logos/logo18.png');
-}
-
-.logo-holder4:nth-child(2){
-	background-image: url('../images/logos/logo19.png');
-}
-
-.logo-holder4:nth-child(3){
-	background-image: url('../images/logos/logo20.png');
-}
-
-.logo-holder4:nth-child(4){
-	background-image: url('../images/logos/logo21.png');
-}
-
-.logo-holder4:nth-child(5){
-	background-image: url('../images/logos/logo22.png');
-}
-
-.logo-holder4:nth-child(6){
-	background-image: url('../images/logos/logo23.png');
-}
-
-.logo-holder4:nth-child(7){
-	background-image: url('../images/logos/logo24.jpg');
-}
-
-
 /*---------------------DESKTOP-----------------------*/
 
 @media only screen and (min-width: 961px) {
@@ -485,7 +400,6 @@ hr {
 	}
 
 }
-
 
 /*---------------------Tablet---------------------*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
